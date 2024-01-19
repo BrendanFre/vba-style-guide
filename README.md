@@ -16,6 +16,7 @@ OLD_this_is_a_module
 ```
 ## General Layout
 Limit line length to 72 characters unless splitting a line will make it more difficult to read.
+
 Use 4-character tabs to indent, this is the standard in VBA and requires you to press the Tab key.
 ```vb
 'Dont do this:
