@@ -1,6 +1,7 @@
 # VBA Style Guide
 
-This is a guide on how to format VBA code so that it is easy to read. It will also make it easy to understand for future programmers. If you are working on a Macro that does not follow these conventions, only follow these conventions for your code. The codebase can then be updated at a later date.
+This is a guide on how to format VBA code so that it is easy to read. It will also make it easy to understand for future programmers. 
+If you are working on a Macro that does not follow these conventions, only follow these conventions for your code. The codebase can then be updated at a later date.
 # Module Layout
 A module should be created for all functions and subprocesses that are similar. I.e. All pricing macros would be on one module etc. However, if the VBA code for a function is over thirty (30) lines. It can have its own module.
 ## Module Naming Convention
@@ -14,6 +15,7 @@ For modules that are no longer used, change the name to include OLD so we know i
 OLD_this_is_a_module
 ```
 ## General Layout
+Limit line length to 72 characters unless splitting a line will make it more difficult to read.
 Use 4-character tabs to indent, this is the standard in VBA and requires you to press the Tab key.
 ```vb
 'Dont do this:
